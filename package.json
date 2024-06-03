@@ -1,0 +1,17 @@
+{
+  "name": "assignment-dflx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test-backend": "npx cypress run --spec cypress/e2e/backend --headed --browser chrome",
+    "test-frontendnd": "npx cypress run --spec cypress/e2e/frontend --headed --browser chrome"
+  },
+  "author": "Arjit Kathuria",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.0",
+    "chai": "5.1.0"
+  }
+}

@@ -1,0 +1,44 @@
+
+
+Question:- Identified a problem or inefficiency in a process related to quality or development, and implemented a change to improve it
+
+Answer:-
+
+Problem:- Maximum the sprint stories are coming in last 2 day of the sprint 
+Solution:- 
+1. We have created a process in which dev will share the Dev Delivery plan on the 2nd say of sprint starts
+2. QA can also plan as per the dev delivery date
+3. In this case Dev and QA should already be in sync what should be delivery in the last 2 day of sprint
+4. The bigger story like 8 pointer should be pick first by dev and should be deliver in the first week of sprint
+5. If dev are not giving the story as per the dev delivery plan QA should highlight this in daily stand up so that 
+    Scrum master is also know about this and help Dev to and QA to resolve this issue
+
+Question:- Built or implemented new testing tools or frameworks
+
+Answer:-
+1. I have to automate a app whose fronend is build on Fluuter
+2. We tried use Appium for that but with appium we are not getting the approprate locator
+3. We are not able to located the element for examble by Accessibility ID, Xpath, Android UI Automator, iOS class chain
+4. We can only identify some of locator based on text message
+5. Our app support multiple langugae and we can't use text this is not a recommended options
+6. The codebase for android and iOS is also different and it is high maintenance because of that
+7. Then we find out we can automate using fluuter gherkin library
+8. Flutter itself support automation 
+9. We have done the POC for that and later we found out it is very fast as compare to appium
+10. To find the locator there is an option to add a key in all the wizard 
+11. Dev add key in all the widget and we can use them in automation to locate any element
+12. The best part is the same code run for both the platform taht is android and iOS
+
+Question:- Made changes to prevent defects from occurring or improve the quality before reaching the testing stage
+
+Answer:-
+1. We have observed that we are getting same kind of issue from dev
+2. We introduce the concept of Bugs RCA where we create a finh bona analyse and focus mostly on Critical and High prioritySeverity Bugs
+3. we ask the developer why this issue come and what action point you keed this in mind so that it won't comes again
+4. We deep dive into bug and find out the exact issue
+5. Dev wrote the action item in the same document to be follow so that we don't get such issue in future
+6. In this way we have reduced our 50 % defect ratio
+7. We also focus on the data like Defect leakage, Defect Density and Defect Romaval efficiency
+8. We have some threshold for all these thing for example Defect Removal efficiency is how much bug has been removed 
+    from the application for that release (Total defect - UAT defect)/Total defect and threshold for that should be
+    > 93% for rvery release
